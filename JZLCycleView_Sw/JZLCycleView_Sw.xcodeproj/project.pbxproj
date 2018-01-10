@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		933F4AED20060CE000FA8CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F4AEC20060CE000FA8CD8 /* AppDelegate.swift */; };
+		933F4AEF20060CE000FA8CD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F4AEE20060CE000FA8CD8 /* ViewController.swift */; };
+		933F4AF220060CE000FA8CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933F4AF020060CE000FA8CD8 /* Main.storyboard */; };
+		933F4AF420060CE000FA8CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933F4AF320060CE000FA8CD8 /* Assets.xcassets */; };
+		933F4AF720060CE000FA8CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933F4AF520060CE000FA8CD8 /* LaunchScreen.storyboard */; };
+		933F4B0220060CE000FA8CD8 /* JZLCycleView_SwTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F4B0120060CE000FA8CD8 /* JZLCycleView_SwTests.swift */; };
+		933F4B0D20060CE000FA8CD8 /* JZLCycleView_SwUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F4B0C20060CE000FA8CD8 /* JZLCycleView_SwUITests.swift */; };
+		933F4B1D20060D3800FA8CD8 /* JZLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F4B1B20060D3800FA8CD8 /* JZLCollectionViewCell.swift */; };
+		933F4B1E20060D3800FA8CD8 /* JZLCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F4B1C20060D3800FA8CD8 /* JZLCycleView.swift */; };
+		9ED2D0DC59AE8BABBC21B876 /* Pods_JZLCycleView_Sw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED2C7A4F2F9701F196032D0 /* Pods_JZLCycleView_Sw.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		933F4AFE20060CE000FA8CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933F4AE120060CE000FA8CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933F4AE820060CE000FA8CD8;
+			remoteInfo = JZLCycleView_Sw;
+		};
+		933F4B0920060CE000FA8CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933F4AE120060CE000FA8CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933F4AE820060CE000FA8CD8;
+			remoteInfo = JZLCycleView_Sw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C97CB6157EE024D615313CF /* Pods-JZLCycleView_Sw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZLCycleView_Sw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZLCycleView_Sw/Pods-JZLCycleView_Sw.debug.xcconfig"; sourceTree = "<group>"; };
+		933F4AE920060CE000FA8CD8 /* JZLCycleView_Sw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZLCycleView_Sw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		933F4AEC20060CE000FA8CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		933F4AEE20060CE000FA8CD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		933F4AF120060CE000FA8CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		933F4AF320060CE000FA8CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		933F4AF620060CE000FA8CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		933F4AF820060CE000FA8CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933F4AFD20060CE000FA8CD8 /* JZLCycleView_SwTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZLCycleView_SwTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		933F4B0120060CE000FA8CD8 /* JZLCycleView_SwTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZLCycleView_SwTests.swift; sourceTree = "<group>"; };
+		933F4B0320060CE000FA8CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933F4B0820060CE000FA8CD8 /* JZLCycleView_SwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZLCycleView_SwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		933F4B0C20060CE000FA8CD8 /* JZLCycleView_SwUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZLCycleView_SwUITests.swift; sourceTree = "<group>"; };
+		933F4B0E20060CE000FA8CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933F4B1B20060D3800FA8CD8 /* JZLCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZLCollectionViewCell.swift; sourceTree = "<group>"; };
+		933F4B1C20060D3800FA8CD8 /* JZLCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZLCycleView.swift; sourceTree = "<group>"; };
+		9ED2C7A4F2F9701F196032D0 /* Pods_JZLCycleView_Sw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZLCycleView_Sw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78D61BF40EBA481B632B88C /* Pods-JZLCycleView_Sw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZLCycleView_Sw.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZLCycleView_Sw/Pods-JZLCycleView_Sw.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		933F4AE620060CE000FA8CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2D0DC59AE8BABBC21B876 /* Pods_JZLCycleView_Sw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933F4AFA20060CE000FA8CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933F4B0520060CE000FA8CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239BD360B4CC8B2E4BE4A015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C97CB6157EE024D615313CF /* Pods-JZLCycleView_Sw.debug.xcconfig */,
+				B78D61BF40EBA481B632B88C /* Pods-JZLCycleView_Sw.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E38C83C37968752889C5E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ED2C7A4F2F9701F196032D0 /* Pods_JZLCycleView_Sw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		933F4AE020060CE000FA8CD8 = {
+			isa = PBXGroup;
+			children = (
+				933F4AEB20060CE000FA8CD8 /* JZLCycleView_Sw */,
+				933F4B0020060CE000FA8CD8 /* JZLCycleView_SwTests */,
+				933F4B0B20060CE000FA8CD8 /* JZLCycleView_SwUITests */,
+				933F4AEA20060CE000FA8CD8 /* Products */,
+				239BD360B4CC8B2E4BE4A015 /* Pods */,
+				3E38C83C37968752889C5E0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		933F4AEA20060CE000FA8CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933F4AE920060CE000FA8CD8 /* JZLCycleView_Sw.app */,
+				933F4AFD20060CE000FA8CD8 /* JZLCycleView_SwTests.xctest */,
+				933F4B0820060CE000FA8CD8 /* JZLCycleView_SwUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		933F4AEB20060CE000FA8CD8 /* JZLCycleView_Sw */ = {
+			isa = PBXGroup;
+			children = (
+				933F4B1A20060CFA00FA8CD8 /* JZLCycleView */,
+				933F4AEC20060CE000FA8CD8 /* AppDelegate.swift */,
+				933F4AEE20060CE000FA8CD8 /* ViewController.swift */,
+				933F4AF020060CE000FA8CD8 /* Main.storyboard */,
+				933F4AF320060CE000FA8CD8 /* Assets.xcassets */,
+				933F4AF520060CE000FA8CD8 /* LaunchScreen.storyboard */,
+				933F4AF820060CE000FA8CD8 /* Info.plist */,
+			);
+			path = JZLCycleView_Sw;
+			sourceTree = "<group>";
+		};
+		933F4B0020060CE000FA8CD8 /* JZLCycleView_SwTests */ = {
+			isa = PBXGroup;
+			children = (
+				933F4B0120060CE000FA8CD8 /* JZLCycleView_SwTests.swift */,
+				933F4B0320060CE000FA8CD8 /* Info.plist */,
+			);
+			path = JZLCycleView_SwTests;
+			sourceTree = "<group>";
+		};
+		933F4B0B20060CE000FA8CD8 /* JZLCycleView_SwUITests */ = {
+			isa = PBXGroup;
+			children = (
+				933F4B0C20060CE000FA8CD8 /* JZLCycleView_SwUITests.swift */,
+				933F4B0E20060CE000FA8CD8 /* Info.plist */,
+			);
+			path = JZLCycleView_SwUITests;
+			sourceTree = "<group>";
+		};
+		933F4B1A20060CFA00FA8CD8 /* JZLCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				933F4B1B20060D3800FA8CD8 /* JZLCollectionViewCell.swift */,
+				933F4B1C20060D3800FA8CD8 /* JZLCycleView.swift */,
+			);
+			path = JZLCycleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		933F4AE820060CE000FA8CD8 /* JZLCycleView_Sw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933F4B1120060CE000FA8CD8 /* Build configuration list for PBXNativeTarget "JZLCycleView_Sw" */;
+			buildPhases = (
+				3381528BAC29DEE72078B5F6 /* [CP] Check Pods Manifest.lock */,
+				933F4AE520060CE000FA8CD8 /* Sources */,
+				933F4AE620060CE000FA8CD8 /* Frameworks */,
+				933F4AE720060CE000FA8CD8 /* Resources */,
+				00D52E64A319C9CD8489EB85 /* [CP] Embed Pods Frameworks */,
+				5434EDB750F2EE950D8129D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZLCycleView_Sw;
+			productName = JZLCycleView_Sw;
+			productReference = 933F4AE920060CE000FA8CD8 /* JZLCycleView_Sw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		933F4AFC20060CE000FA8CD8 /* JZLCycleView_SwTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933F4B1420060CE000FA8CD8 /* Build configuration list for PBXNativeTarget "JZLCycleView_SwTests" */;
+			buildPhases = (
+				933F4AF920060CE000FA8CD8 /* Sources */,
+				933F4AFA20060CE000FA8CD8 /* Frameworks */,
+				933F4AFB20060CE000FA8CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				933F4AFF20060CE000FA8CD8 /* PBXTargetDependency */,
+			);
+			name = JZLCycleView_SwTests;
+			productName = JZLCycleView_SwTests;
+			productReference = 933F4AFD20060CE000FA8CD8 /* JZLCycleView_SwTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		933F4B0720060CE000FA8CD8 /* JZLCycleView_SwUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933F4B1720060CE000FA8CD8 /* Build configuration list for PBXNativeTarget "JZLCycleView_SwUITests" */;
+			buildPhases = (
+				933F4B0420060CE000FA8CD8 /* Sources */,
+				933F4B0520060CE000FA8CD8 /* Frameworks */,
+				933F4B0620060CE000FA8CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				933F4B0A20060CE000FA8CD8 /* PBXTargetDependency */,
+			);
+			name = JZLCycleView_SwUITests;
+			productName = JZLCycleView_SwUITests;
+			productReference = 933F4B0820060CE000FA8CD8 /* JZLCycleView_SwUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933F4AE120060CE000FA8CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.Woodpecker;
+				TargetAttributes = {
+					933F4AE820060CE000FA8CD8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					933F4AFC20060CE000FA8CD8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 933F4AE820060CE000FA8CD8;
+					};
+					933F4B0720060CE000FA8CD8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 933F4AE820060CE000FA8CD8;
+					};
+				};
+			};
+			buildConfigurationList = 933F4AE420060CE000FA8CD8 /* Build configuration list for PBXProject "JZLCycleView_Sw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 933F4AE020060CE000FA8CD8;
+			productRefGroup = 933F4AEA20060CE000FA8CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933F4AE820060CE000FA8CD8 /* JZLCycleView_Sw */,
+				933F4AFC20060CE000FA8CD8 /* JZLCycleView_SwTests */,
+				933F4B0720060CE000FA8CD8 /* JZLCycleView_SwUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933F4AE720060CE000FA8CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F4AF720060CE000FA8CD8 /* LaunchScreen.storyboard in Resources */,
+				933F4AF420060CE000FA8CD8 /* Assets.xcassets in Resources */,
+				933F4AF220060CE000FA8CD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933F4AFB20060CE000FA8CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933F4B0620060CE000FA8CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D52E64A319C9CD8489EB85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZLCycleView_Sw/Pods-JZLCycleView_Sw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3381528BAC29DEE72078B5F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5434EDB750F2EE950D8129D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZLCycleView_Sw/Pods-JZLCycleView_Sw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		933F4AE520060CE000FA8CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F4B1E20060D3800FA8CD8 /* JZLCycleView.swift in Sources */,
+				933F4B1D20060D3800FA8CD8 /* JZLCollectionViewCell.swift in Sources */,
+				933F4AEF20060CE000FA8CD8 /* ViewController.swift in Sources */,
+				933F4AED20060CE000FA8CD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933F4AF920060CE000FA8CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F4B0220060CE000FA8CD8 /* JZLCycleView_SwTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933F4B0420060CE000FA8CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F4B0D20060CE000FA8CD8 /* JZLCycleView_SwUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		933F4AFF20060CE000FA8CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 933F4AE820060CE000FA8CD8 /* JZLCycleView_Sw */;
+			targetProxy = 933F4AFE20060CE000FA8CD8 /* PBXContainerItemProxy */;
+		};
+		933F4B0A20060CE000FA8CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 933F4AE820060CE000FA8CD8 /* JZLCycleView_Sw */;
+			targetProxy = 933F4B0920060CE000FA8CD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		933F4AF020060CE000FA8CD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933F4AF120060CE000FA8CD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		933F4AF520060CE000FA8CD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933F4AF620060CE000FA8CD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		933F4B0F20060CE000FA8CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		933F4B1020060CE000FA8CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933F4B1220060CE000FA8CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C97CB6157EE024D615313CF /* Pods-JZLCycleView_Sw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP9A55T57T;
+				INFOPLIST_FILE = JZLCycleView_Sw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SuZhou-WinnerCircle.JZLCycleView-Sw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		933F4B1320060CE000FA8CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78D61BF40EBA481B632B88C /* Pods-JZLCycleView_Sw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP9A55T57T;
+				INFOPLIST_FILE = JZLCycleView_Sw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SuZhou-WinnerCircle.JZLCycleView-Sw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		933F4B1520060CE000FA8CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP9A55T57T;
+				INFOPLIST_FILE = JZLCycleView_SwTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SuZhou-WinnerCircle.JZLCycleView-SwTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZLCycleView_Sw.app/JZLCycleView_Sw";
+			};
+			name = Debug;
+		};
+		933F4B1620060CE000FA8CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP9A55T57T;
+				INFOPLIST_FILE = JZLCycleView_SwTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SuZhou-WinnerCircle.JZLCycleView-SwTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZLCycleView_Sw.app/JZLCycleView_Sw";
+			};
+			name = Release;
+		};
+		933F4B1820060CE000FA8CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP9A55T57T;
+				INFOPLIST_FILE = JZLCycleView_SwUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SuZhou-WinnerCircle.JZLCycleView-SwUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JZLCycleView_Sw;
+			};
+			name = Debug;
+		};
+		933F4B1920060CE000FA8CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP9A55T57T;
+				INFOPLIST_FILE = JZLCycleView_SwUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SuZhou-WinnerCircle.JZLCycleView-SwUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JZLCycleView_Sw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		933F4AE420060CE000FA8CD8 /* Build configuration list for PBXProject "JZLCycleView_Sw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933F4B0F20060CE000FA8CD8 /* Debug */,
+				933F4B1020060CE000FA8CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933F4B1120060CE000FA8CD8 /* Build configuration list for PBXNativeTarget "JZLCycleView_Sw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933F4B1220060CE000FA8CD8 /* Debug */,
+				933F4B1320060CE000FA8CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933F4B1420060CE000FA8CD8 /* Build configuration list for PBXNativeTarget "JZLCycleView_SwTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933F4B1520060CE000FA8CD8 /* Debug */,
+				933F4B1620060CE000FA8CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933F4B1720060CE000FA8CD8 /* Build configuration list for PBXNativeTarget "JZLCycleView_SwUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933F4B1820060CE000FA8CD8 /* Debug */,
+				933F4B1920060CE000FA8CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 933F4AE120060CE000FA8CD8 /* Project object */;
+}
