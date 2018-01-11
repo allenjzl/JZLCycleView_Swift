@@ -10,6 +10,11 @@ import UIKit
 import Kingfisher
 
 
+protocol JZLCycleViewDelagate: NSObjectProtocol {
+    func selectedItemAtIndex(index: NSInteger)
+    
+}
+
 class JZLCycleView: UIView {
 
     override init(frame: CGRect) {
@@ -74,6 +79,9 @@ class JZLCycleView: UIView {
         }
     }
     
+    weak open var delegate: JZLCycleViewDelagate?
+    
+    
     override func removeFromSuperview() {
         super.removeFromSuperview()
         self.timer.invalidate()
@@ -102,10 +110,9 @@ extension JZLCycleView: UICollectionViewDelegate,UICollectionViewDataSource {
             //本地图片
             if (img as AnyObject).isKind(of: UIImage.self) {
                 cell.imgView.image = img as? UIImage
-            }else {//图片url
+            }else {//网络图片
                 if (img as AnyObject).isKind(of: NSString.self) {
                     if (img as! NSString).hasPrefix("http"){
-                        
                         cell.imgView.kf.setImage(with: ImageResource.init(downloadURL: NSURL.init(string: img as! String)! as URL))
                     }else {
                         cell.imgView.image = UIImage.init(named: img as! String)
@@ -118,7 +125,7 @@ extension JZLCycleView: UICollectionViewDelegate,UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.item)
+        delegate?.selectedItemAtIndex(index: indexPath.item)
     }
     
 
